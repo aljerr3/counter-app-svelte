@@ -19,8 +19,8 @@
 </script>
 
 <main>
-  <h1>Calculadora de Boletas</h1>
-  <h3>Calcula el valor por el que debes hacer tu boleta de honorarios</h3>
+  <h1>Contador</h1>
+  <h3>Contador hecho en svelte y typescript</h3>
   <hr />
   <h2 class={counter < 0 ? "negative" : "positive"}>Counter: {counter}</h2>
   <button class="add" on:click={() => modifyCounter(1)}>+1</button>
